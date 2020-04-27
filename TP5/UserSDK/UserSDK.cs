@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 public class User
 {
@@ -14,12 +15,17 @@ public class User
         email= prenom+"."+nom+"@email.com";
         username="username";
     }
-    /*public static User GetUser(string pseudo)
+
+
+    public static User GetUser(string pseudo, List<User> AllUsers)
     {
-        User u = new User();
-        if(this.username ==pseudo){
-            u.nom = User.nom;
+        foreach(User u in AllUsers)
+        {
+            if(u.username == pseudo)
+            {
+                return u;
+            }
         }
-        return ;
-    }*/
+        return null;
+    }
 }
