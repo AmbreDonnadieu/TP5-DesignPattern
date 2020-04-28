@@ -34,5 +34,11 @@ public class Bill
     {
         public ItemLine itemLine { get; set; }
         public double soustotal {get;set;}
+
+        public BillLine()
+        {
+            itemLine = new ItemLine();
+            soustotal = 0;
+        }
     }
 }

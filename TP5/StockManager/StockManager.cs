@@ -48,8 +48,5 @@ public class StockManager
     static void Main(string[] args)
     {
         // Console.WriteLine("Hello World!");
-        // StockManager i = new StockManager();
-        // StockManager.AllStockFromJson();
-        // StockManager.AllStockToJson();
     }
 }
