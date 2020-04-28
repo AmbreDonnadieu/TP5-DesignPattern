@@ -34,7 +34,7 @@ public class ItemLine
 
 public class StockManager
 {
-    List<ItemLine> AllLines;
+    public List<ItemLine> AllLines;
     public ItemLine ReserveItem(int quantity, string name)
     {
         ItemLine i = new ItemLine();
