@@ -9,9 +9,11 @@ namespace AppliPrincipale
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            StockManager i = new StockManager();
             StockManager.AllStockFromJson();
             StockManager.AllStockToJson();
+
+            UserManager.UsersFromJson();
+            User u = UserManager.FindByUsername("lfairburne5");
         }
     }
 }

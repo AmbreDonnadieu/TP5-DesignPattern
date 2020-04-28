@@ -13,8 +13,6 @@ public class StockManager
 
     public static void AllStockFromJson()
     {
-        Console.WriteLine("Entrer");
-
         JArray o1 = JArray.Parse(File.ReadAllText(@"stock.json"));
 
         foreach (JToken token in o1)
@@ -29,7 +27,8 @@ public class StockManager
     }
 
     public static void AllStockToJson()
-    { using (StreamWriter file = File.CreateText(@"stock.json"))
+    {
+        using (StreamWriter file = File.CreateText(@"stock.json"))
         using (JsonTextWriter writer = new JsonTextWriter(file))
         {
             JArray all = new JArray();
