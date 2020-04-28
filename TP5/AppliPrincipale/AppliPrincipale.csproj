@@ -13,6 +13,9 @@
     <ProjectReference Include="..\UserSDK\UserSDK.csproj" />
     <ProjectReference Include="..\StockSDK\StockSDK.csproj" />
     <ProjectReference Include="..\BillSDK\BillSDK.csproj" />
+    <ProjectReference Include="..\StockManager\StockManager.csproj" />
+    <ProjectReference Include="..\BillManager\BillManager.csproj" />
+    <ProjectReference Include="..\UserManager\UserManager.csproj" />
   </ItemGroup>
 
 </Project>

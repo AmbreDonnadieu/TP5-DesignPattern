@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-class UserManager
+public class UserManager
 {
     static void Main(string[] args)
     {

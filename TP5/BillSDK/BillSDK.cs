@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using StockSDK;
 
 public class Bill
 {

@@ -1,4 +1,6 @@
 ﻿using System;
+using StockSDK;
+
 
 namespace AppliPrincipale
 {
@@ -7,6 +9,9 @@ namespace AppliPrincipale
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            StockManager i = new StockManager();
+            StockManager.AllStockFromJson();
+            StockManager.AllStockToJson();
         }
     }
 }
